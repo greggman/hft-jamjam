@@ -1,0 +1,15 @@
+{
+  "name": "JamJam",
+  "description": "Sample that show synced music",
+  "version": "0.0.1",
+  "private": false,
+  "dependencies": {
+  },
+  "happyFunTimes": {
+    "gameId": "jamjam",
+    "gameType": "html",
+    "category": "example",
+    "apiVersion": "0.0.0",
+    "minPlayers": 1
+  }
+}
