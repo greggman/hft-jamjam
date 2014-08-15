@@ -188,9 +188,7 @@ requirejs(
     MobileHacks.fixHeightHack();
     var stop = false;
 
-    g_client = new GameClient({
-      gameId: "jamjam",
-    });
+    g_client = new GameClient();
 
     g_client.addEventListener('setInstrument', handleSetInstrument);
 
