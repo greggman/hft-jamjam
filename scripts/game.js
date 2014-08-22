@@ -338,7 +338,6 @@ requirejs(
   // You can set these from the URL with
   // http://path/gameview.html?settings={name:value,name:value}
   var globals = {
-    port: 8080,
     haveServer: true,
     bpm: 120,
     loopLength: 16,
