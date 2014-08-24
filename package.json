@@ -1,6 +1,6 @@
 {
   "name": "JamJam",
-  "description": "Sample that show synced music",
+  "description": "Sample that shows synced music",
   "version": "0.0.1",
   "private": false,
   "dependencies": {
@@ -9,7 +9,7 @@
     "gameId": "jamjam",
     "gameType": "html",
     "category": "example",
-    "apiVersion": "0.0.0",
+    "apiVersion": "1.0.0",
     "minPlayers": 1
   }
 }
