@@ -9,6 +9,9 @@ A collective drum sequencer. Each player has one drum they can set the sequence 
 All the machines are synced using a `SyncedClock`. Each player must turn on the volume
 on their phone so everyone can hear their drum.
 
+FYI: This is still a work in progress. Timing seems to be synced on iOS devices but
+not Android.
+
 Cloning
 -------
 
@@ -30,5 +33,15 @@ If you clone this you'll need follow the following steps
 7.  edit `package.json` and change the `gameId` to some other id.
 8.  type `hft add` which will add this to happyFunTimes.
 
+Attribution
+-----------
+
+Sounds
+
+From Chromium Repo
+
+Link: http://chromium.googlecode.com/svn/trunk/samples/audio/sounds/drum-samples/
+
+Part of the [Web Audio Drum Machine](http://chromium.googlecode.com/svn/trunk/samples/audio/shiny-drum-machine.html)
 
 
