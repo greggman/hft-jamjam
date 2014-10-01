@@ -36,21 +36,21 @@ requirejs(
     'hft/gameclient',
     'hft/syncedclock',
     'hft/misc/cookies',
-    'hft/misc/grid',
     'hft/misc/input',
     'hft/misc/misc',
     'hft/misc/mobilehacks',
     '../bower_components/hft-utils/dist/audio',
+    '../bower_components/hft-utils/dist/grid',
   ], function(
     CommonUI,
     GameClient,
     SyncedClock,
     Cookie,
-    Grid,
     Input,
     Misc,
     MobileHacks,
-    AudioManager) {
+    AudioManager,
+    Grid) {
   var g_client;
   var g_audioManager;
   var g_clock;
